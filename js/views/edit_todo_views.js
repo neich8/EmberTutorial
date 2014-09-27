@@ -1,5 +1,5 @@
 Todos.EditTodoView = Ember.TextField.extend({
-  didInsertElement: function() {
+  didInsertElement: function () {
     this.$().focus();
   }
 });
